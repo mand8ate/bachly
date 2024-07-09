@@ -39,6 +39,11 @@
 
       --strong-blue: 223 75% 72%;
       --strong-blue-foreground: 223 93% 53%;
+
+      --vibrant-dark-blue: 180 58% 54%;
+      --vibrant-dark-blue-foreground: 210 40% 98%;
+
+      --vibrant-light-blue: 169 95% 52%
     }
 
     .dark {

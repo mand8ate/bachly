@@ -60,6 +60,14 @@ const config = {
           DEFAULT: "hsl(var(--strong-blue))",
           foreground: "hsl(var(--strong-blue-foreground))",
         },
+        vibrantdarkblue: {
+          DEFAULT: "hsl(var(--vibrant-dark-blue))",
+          foreground: "hsl(var(--vibrant-dark-blue-foreground))",
+        },
+        vibrantlightblue: {
+          DEFAULT: "hsl(var(--vibrant-light-blue))",
+          foreground: "hsl(var(--vibrant-light-blue-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

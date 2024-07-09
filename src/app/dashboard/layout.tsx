@@ -1,12 +1,14 @@
+import SidebarUser from "@/components/SidebarUser";
+
 export default function UserDashboardLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <div className="flex">
-      <aside className="h-screen w-36 bg-primary"></aside>
-      <div className="pt-12">{children}</div>
-    </div>
-  );
+	return (
+		<div className="flex">
+			<SidebarUser />
+			<div className="pt-12">{children}</div>
+		</div>
+	);
 }
